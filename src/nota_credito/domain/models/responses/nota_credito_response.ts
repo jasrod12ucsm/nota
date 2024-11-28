@@ -1,0 +1,32 @@
+export class NotaCreditoResponse {
+  codigoNotaCredito: string;
+  precio: string;
+  motivo: string;
+  tipo: string;
+  facturaCodigo: string;
+  tipoMoneda: string;
+  precioNeto: string;
+  formaPago: string;
+  guiaRemisionTransportista: string;
+  igv: string;
+  guiaRemisionRemitente: string;
+  facturaImporte: string;
+  fechaEmision: Date;
+  servicio: string | null;
+  clienteRuc: string;
+  clienteNombre: string;
+  clienteDepartamento: string;
+  clienteCalle: string;
+  clienteAvenida: string | null;
+  clienteDistrito: string;
+  clienteCiudad: string;
+  empresaNombre: string;
+  empresaDepartamento: string;
+  empresaCalle: string;
+  empresaAvenida: string | null;
+  empresaDistrito: string;
+  empresaCiudad: string;
+  empresaRuc: string;
+  rutas: string[];
+  observaciones: string[];
+}

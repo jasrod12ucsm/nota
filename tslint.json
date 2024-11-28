@@ -1,0 +1,10 @@
+{
+  "extends": "tslint-config-prettier",
+  "rules": {
+    "semicolon": [true, "always"],
+    "trailing-comma": [true, {
+      "multiline": "always",
+      "singleline": "never"
+    }]
+  }
+}
